@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sneakers</title>
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <!-- main css file -->
+  <link rel="stylesheet" href="CSS/main.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;700;&amp;&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="imgs/favicon_io/favicon-32x32.png" type="image/png">
+  <link rel="icon" href="imgs/favicon_io/favicon-16x16.png" type="image/png">
+</head>
+
+<body>
+  <div class="app">
+    <div class="container">
+      <header class="d-flex justify-content-between align-items-center">
+        <div class="first d-flex align-items-center  
+        flex-row-reverse flex-lg-row flex-md-row">
+          <div class="logo d-flex ">
+            <img src="imgs/logo.svg" alt="">
+          </div>
+          <span class="d-none">x</span>
+          <div class="tags d-lg-flex position-relative  d-md-flex ms-lg-5 ms-md-3">
+            <div class="tag position-relative">Collections</div>
+            <div class="tag position-relative">Men</div>
+            <div class="tag position-relative">Women</div>
+            <div class="tag position-relative">About</div>
+            <div class="tag position-relative">Contact</div>
+          </div>
+        </div>
+        <div class="second d-flex align-items-center">
+          <div class="cart me-lg-5 me-3 position-relative">
+            <div class="count"></div>
+            <img src="imgs/icon-cart.svg" alt="">
+            <div class=" d-none content empty">
+              <span>Cart</span>
+              <!-- <div class="message-empty">
+                Your Cart is empty.
+              </div> -->
+
+            </div>
+          </div>
+          <div class="picture">
+            <img src="imgs/image-avatar.png" alt="">
+          </div>
+        </div>
+      </header>
+      <div class="main d-flex  mt-lg-5 mb-lg-5 pb-lg-5 flex-column flex-lg-row flex-md-row ">
+        <div class="product">
+          <div class="main-img">
+
+
+          </div>
+          <div class="imgs d-flex align-items-center">
+            <div class="active holder">
+              <img src="imgs/image-product-1.jpg" data-id='0' alt="">
+            </div>
+            <div class=" holder">
+              <img src="imgs/image-product-2.jpg" data-id='1' alt="">
+            </div>
+            <div class=" holder">
+              <img src="imgs/image-product-3.jpg" data-id='2' alt="">
+            </div>
+            <div class=" holder">
+              <img src="imgs/image-product-4.jpg" data-id='3' alt="">
+            </div>
+          </div>
+        </div>
+        <div class="details">
+          <span class="">sneaker company</span>
+          <h3 class="mt-3 text-capitalize">fall limited edition
+            sneakers</h3>
+          <p class="mt-4">These low-profile sneakers are your
+            perfect casual wear companion. featuring a durable
+            rubber outer sole,they'll withstand everything the
+            weather can offer</p>
+          <div class="price d-flex">
+            <span>$125.00</span>
+            <span>50%</span>
+          </div>
+          <div class="buying d-flex align-items-center">
+            <div class="amount d-flex justify-content-between align-items-center">
+              <div class="minus"><img src="imgs/icon-minus.svg" alt=""></div>
+              <div class="number">0</div>
+              <div class="plus"><img src="imgs/icon-plus.svg" alt=""></div>
+            </div>
+            <div class="add">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Add to cart
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/main.js">
+  </script>
+</body>
+
+</html>
